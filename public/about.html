@@ -1,0 +1,58 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Sentiment Analysis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/analyze.html">Analyze</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <h1>About the Project</h1>
+        <p>Sentiment analysis, a subfield of natural language processing (NLP), plays a crucial role in understanding the opinions and emotions expressed in textual data. In this project, we explore the application of Support Vector Machines (SVMs) in sentiment analysis. SVMs are powerful supervised learning models known for their effectiveness in classification tasks.
+        </p>
+        <p>
+            Our project focuses on training SVMs using a dataset comprising online reviews, tweets, and other textual sources. The dataset is labeled with sentiment labels such as positive, negative, and neutral. By leveraging the features extracted from the text, SVMs learn to classify new instances into one of these sentiment categories.
+        </p>
+        <p>   
+            We preprocess the textual data by removing noise, tokenizing the text, and applying techniques such as stemming or lemmatization to normalize the text. Feature engineering plays a vital role in SVMs, where we represent each text instance as a vector in a high-dimensional space. This vectorization process transforms the text into a format suitable for SVM classification.
+        </p> 
+        <p>   
+            We train the SVM model on a portion of the dataset and evaluate its performance using various metrics such as accuracy, precision, recall, and F1-score. Additionally, we employ techniques like cross-validation to ensure the robustness of our model and to prevent overfitting.
+        </p>
+        <p> 
+            Through experimentation and analysis, we demonstrate the effectiveness of SVMs in sentiment analysis tasks. Our project contributes to the growing body of research in NLP and provides insights into the practical applications of machine learning algorithms, particularly SVMs, in understanding and analyzing sentiment in textual data from diverse sources.               
+        </p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
